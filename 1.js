@@ -4,7 +4,7 @@
 @Author：怎么肥事 (Converted for Loon)
 
 [Script]
-http-request ^https:\/\/api\.pingmeapp\.net\/app\/queryBalanceAndBonus script-path=PingMe.js, requires-body=false, tag=PingMe获取CK
+http-request ^https:\/\/api\.pingmeapp\.net\/app\/ script-path=PingMe.js, requires-body=false, tag=PingMe获取CK
 cron "30 8,20 * * *" script-path=PingMe.js, tag=PingMe签到
 
 [MITM]
